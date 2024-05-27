@@ -19,19 +19,50 @@ Plataforma de eBooks é uma aplicação para leitura e distribuição de livros 
 4. Execute a aplicação usando `npm start`.
 5. Acesse a plataforma em `http://localhost:3000`.
 
-## Bibliotecas Utilizadas
+## Tabelas e Relações do Banco de Dados
 
-- `bcryptjs`: Para criptografia de senhas.
-- `body-parser`: Middleware para análise de corpos de requisição.
-- `bootstrap`: Framework front-end para design responsivo.
-- `bootstrap-icons`: Ícones SVG do Bootstrap.
-- `ejs`: Template engine para renderização de páginas HTML.
-- `express`: Framework web para Node.js.
-- `express-session`: Middleware para sessões de usuário.
-- `mysql` e `mysql2`: Clientes MySQL para Node.js.
-- `nodemon`: Utilitário para reiniciar automaticamente o servidor durante o desenvolvimento.
-- `sequelize`: ORM para interação com bancos de dados relacionais.
-- `slugify`: Para criação de URLs amigáveis.
+### Tabela `categories`
+
+Esta tabela armazena as categorias dos eBooks.
+
+| Campo  | Tipo    | Descrição       |
+|--------|---------|-----------------|
+| title  | STRING  | Título da categoria |
+| slug   | STRING  | Slug da categoria   |
+
+### Tabela `comments`
+
+Esta tabela armazena os comentários dos usuários sobre os eBooks.
+
+| Campo        | Tipo    | Descrição           |
+|--------------|---------|---------------------|
+| comentario   | STRING  | Comentário do usuário |
+| comentarioslug | STRING | Slug do comentário    |
+| autor        | STRING  | Autor do comentário  |
+
+### Tabela `e-books` (Books)
+
+Esta tabela armazena informações sobre os eBooks.
+
+| Campo  | Tipo    | Descrição       |
+|--------|---------|-----------------|
+| title  | STRING  | Título do eBook |
+| slug   | STRING  | Slug do eBook   |
+| capa   | TEXT    | URL da capa do eBook |
+| body   | TEXT    | Corpo do eBook  |
+| status | TEXT    | Status do eBook (por exemplo, publicado, rascunho, etc.) |
+
+### Tabela `users`
+
+Esta tabela armazena informações sobre os usuários.
+
+| Campo    | Tipo    | Descrição          |
+|----------|---------|--------------------|
+| name     | STRING  | Nome do usuário    |
+| apelido  | STRING  | Apelido do usuário |
+| email    | STRING  | E-mail do usuário  |
+| password | STRING  | Senha do usuário   |
+| status   | STRING  | Status do usuário (por exemplo, ativo, inativo, etc.) |
 
 ## Contribuição
 
@@ -40,4 +71,5 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou env
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
+
 
