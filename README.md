@@ -67,7 +67,11 @@ Esta tabela armazena informações sobre os usuários.
 
 ## Menu Inicial
 ![homw](https://github.com/WilliamNPS/Plataforma_E-books/assets/103404989/7709db1a-3c7e-4041-92b4-7577b04b08ce)
-la do Home
+
+
+
+## Painel Administrativo
+![admin](https://github.com/WilliamNPS/Plataforma_E-books/assets/103404989/70fa4121-7167-428d-ad76-af3acdaacd5d)
 
 ## Contribuição
 
