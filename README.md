@@ -1,4 +1,4 @@
-# Plataforma de eBooks 📚
+# Plataforma de E-books 📚
 
 [![Node.js](https://img.shields.io/badge/Node.js-14.17.0-green)](https://nodejs.org/)
 [![Express.js](https://img.shields.io/badge/Express.js-4.19.2-blue)](https://expressjs.com/)
