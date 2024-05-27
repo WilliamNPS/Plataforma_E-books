@@ -64,6 +64,11 @@ Esta tabela armazena informações sobre os usuários.
 | password | STRING  | Senha do usuário   |
 | status   | STRING  | Status do usuário (por exemplo, admin, comum, etc.) |
 
+
+## Menu Inicial
+![homw](https://github.com/WilliamNPS/Plataforma_E-books/assets/103404989/7709db1a-3c7e-4041-92b4-7577b04b08ce)
+la do Home
+
 ## Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
