@@ -50,7 +50,7 @@ Esta tabela armazena informações sobre os eBooks.
 | slug   | STRING  | Slug do eBook   |
 | capa   | TEXT    | URL da capa do eBook |
 | body   | TEXT    | Corpo do eBook  |
-| status | TEXT    | Status do eBook (por exemplo, publicado, rascunho, etc.) |
+| status | TEXT    | Status do eBook (por exemplo, bloqueado, desbloqueado, etc.) |
 
 ### Tabela `users`
 
@@ -62,7 +62,7 @@ Esta tabela armazena informações sobre os usuários.
 | apelido  | STRING  | Apelido do usuário |
 | email    | STRING  | E-mail do usuário  |
 | password | STRING  | Senha do usuário   |
-| status   | STRING  | Status do usuário (por exemplo, ativo, inativo, etc.) |
+| status   | STRING  | Status do usuário (por exemplo, admin, comum, etc.) |
 
 ## Contribuição
 
