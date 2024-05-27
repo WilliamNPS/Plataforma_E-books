@@ -73,3 +73,5 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou env
 Este projeto está licenciado sob a [MIT License](LICENSE).
 
 
+![adm](https://github.com/WilliamNPS/Plataforma_E-books/assets/103404989/f7656a17-db38-4886-9ca3-1d6ea80ca3cf)
+![Administrador-27-05-2024](https://github.com/WilliamNPS/Plataforma_E-books/assets/103404989/7fb58dc3-5df0-47be-b7e6-4f8c9f735708)
