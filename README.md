@@ -17,7 +17,7 @@ Plataforma de eBooks é uma aplicação para leitura e distribuição de livros 
 2. Instale as dependências usando `npm install`.
 3. Configure o banco de dados MySQL e as variáveis de ambiente.
 4. Execute a aplicação usando `npm start`.
-5. Acesse a plataforma em `http://localhost:3000`.
+5. Acesse a plataforma em `http://localhost:8080`.
 
 ## Tabelas e Relações do Banco de Dados
 
