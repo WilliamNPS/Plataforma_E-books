@@ -9,7 +9,7 @@
 [![Bootstrap Icons](https://img.shields.io/badge/Bootstrap%20Icons-1.11.3-blueviolet)](https://icons.getbootstrap.com/)
 [![bcryptjs](https://img.shields.io/badge/bcryptjs-2.4.3-green)](https://www.npmjs.com/package/bcryptjs)
 
-Plataforma de eBooks é uma aplicação para leitura e distribuição de livros digitais. Desenvolvida com tecnologias modernas, incluindo Node.js, Express.js, EJS, MySQL, Sequelize, Bootstrap, Bootstrap Icons e bcryptjs.
+Plataforma de eBooks é uma aplicação para leitura e distribuição de livros digitais. Desenvolvida com tecnologias modernas, incluindo Node.js, Express.js, EJS, MySQL, Sequelize, Bootstrap, Bootstrap Icons e bcryptjs, Ajax.
 
 ## Instalação
 
